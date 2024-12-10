@@ -1,0 +1,21 @@
+-- lazy
+require("plugins.lazy")
+-- func
+require("func.keymaps")
+require("func.options")
+require("func.colorSchema")
+require("func.autopairs")
+require("func.trans")
+require("func.term")
+require("func.treesitter")
+require("func.barbar")
+require("func.nvimtree")
+require("func.closeTag")
+require("func.bufline")
+require("func.lualine")
+require("func.telescope")
+-- lsp
+require("lsp.cmp")
+require("lsp.lsp")
+require("lsp.nullls")
+require("lsp.mason")
